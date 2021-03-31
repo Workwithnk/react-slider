@@ -1,0 +1,27 @@
+.innerDiv {
+    position: relative;
+    display: flex;
+    flex-direction : column;
+    align-items: center;
+    justify-content: center;
+}
+.imageStyle {
+    width: 218px;
+  height: 218px;
+  border-radius: 50%;
+  margin:25px 0px;
+}
+.leftIcon {
+    position : fixed;
+    top: 35%;
+    left: 4%;
+    font-size: 50px;
+    cursor: pointer;
+}
+.rightIcon {
+    position : fixed;
+    top: 35%;
+    right: 4%;
+    font-size: 50px;
+    cursor: pointer;
+}
